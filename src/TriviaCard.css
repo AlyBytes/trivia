@@ -1,0 +1,19 @@
+.Container{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    /* background-color: aqua;*/
+     
+     background-image: url("https://www.nps.gov/aboutus/news/images/JOTR_NPSBradSutton_960w.jpg?maxwidth=1300&maxheight=1300&autorotate=false");
+    background-size: cover; 
+    /* margin: 10px 15px; */
+    padding: 100px;
+    /* flex-flow: row wrap; */
+
+   /* position: absolute;
+     display: inline-block; */
+}
+
+.NavigationSection{
+    flex-direction: row;
+}

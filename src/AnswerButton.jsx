@@ -1,3 +1,9 @@
+import "./AnswerButton.css";
 export default function AnswerButton({ clickAnswer, answer }) {
-  return <button onClick={clickAnswer}> {answer} </button>;
+  return (
+    <button className="AnswerButton" onClick={clickAnswer}>
+      {" "}
+      {answer}{" "}
+    </button>
+  );
 }

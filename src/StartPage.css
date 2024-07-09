@@ -1,0 +1,12 @@
+.StartPage{
+    color: ivory;
+    /* display: inline-block; */
+    text-shadow: 1px 1px 2px gray;
+    padding: 9em;
+   
+    text-align: center;
+    background-image: url("https://npgallery.nps.gov/NOCA/GetAsset/35cf4e74-1daf-4737-9925-64d9251a020c/popupimage");
+    background-size: cover; 
+    width: auto;
+    height: auto;
+}

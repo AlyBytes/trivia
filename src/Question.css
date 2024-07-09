@@ -1,0 +1,21 @@
+.QuestionSection {
+    
+    border-radius: 10px;
+    color: ivory;
+    /* display: inline-block; */
+    padding: 3px;
+    text-align: center;
+    font-size: 35px;
+    margin: auto;
+    font-weight: bold;
+    /* display: flex; */
+  }
+  
+.Question{
+    /* display: flex; */
+    display: inline-block;
+    /* text-align: center; */
+    padding: 10px;
+    font-size: 25px;
+    font-family: Helvetica;
+}
