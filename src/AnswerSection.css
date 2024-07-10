@@ -1,0 +1,9 @@
+.AnswerSection{
+	flex-wrap: wrap;
+	padding: 1em;
+	margin: 5px 1px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr); /* Two columns */
+	gap: 20px 20px;
+	
+}

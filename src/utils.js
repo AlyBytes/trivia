@@ -1,18 +1,18 @@
 const nationalParkQuestions = [
   {
     id: 0,
-    question: "Which national park is home to Old Faithful?",
+    question: "Which park is the first US National Park?",
     answer: "Yellowstone National Park",
   },
   {
     id: 1,
-    question: "Which park features the iconic Half Dome and El Capitan?",
-    answer: "Yosemite National Park",
+    question: "Which park is known for its ancient cliff dwellings?",
+    answer: "Mesa Verde National Park",
   },
   {
     id: 2,
-    question: "Which park is known for its ancient cliff dwellings?",
-    answer: "Mesa Verde National Park",
+    question: "Which park is home to the world's largest trees?",
+    answer: "Sequoia National Park",
   },
   {
     id: 3,
@@ -21,8 +21,8 @@ const nationalParkQuestions = [
   },
   {
     id: 4,
-    question: "Which park is famous for its vibrant red rock formations?",
-    answer: "Arches National Park",
+    question: "Which park is known for its extensive cave systems and underground rivers?",
+    answer: "Carlsbad Caverns National Park",
   },
   {
     id: 5,
@@ -37,87 +37,86 @@ const nationalParkQuestions = [
   },
   {
     id: 7,
-    question:
-      "Which park is known for its colorful hot springs, including the Grand Prismatic Spring?",
-    answer: "Yellowstone National Park",
+    question: "Which park is home to the tallest peak in North America?",
+    answer: "Denali National Park",
   },
   {
     id: 8,
     question:
-      "Which park is home to the tallest peak in North America, Denali?",
-    answer: "Denali National Park",
+      "Which park is known for its extensive system of interconnected lakes and waterways?",
+    answer: "Everglades National Park",
   },
   {
     id: 9,
-    question: "Which park is known for its towering sandstone spires?",
-    answer: "Zion National Park",
+    question:
+      "Which park is home to the deepest and longest canyon in North America?",
+    answer: "Grand Canyon National Park",
   },
   {
     id: 10,
-    question:
-      "Which park is famous for its dramatic hoodoos and amphitheaters?",
-    answer: "Bryce Canyon National Park",
+    question: "Which park is famous for its massive sandstone arches?",
+    answer: "Arches National Park",
   },
-  // {
-  //   id: 11,
-  //   question:
-  //     "Which park is known for its extensive cave systems and underground rivers?",
-  //   answer: "Carlsbad Caverns National Park",
-  // },
-  // {
-  //   id: 12,
-  //   question:
-  //     "Which park is home to the deepest and longest canyon in North America?",
-  //   answer: "Grand Canyon National Park",
-  // },
-  // {
-  //   id: 13,
-  //   question:
-  //     "Which park is known for its lush rainforests and rugged coastline?",
-  //   answer: "Olympic National Park",
-  // },
-  // {
-  //   id: 14,
-  //   question:
-  //     "Which park is famous for its massive sandstone buttes and mesas?",
-  //   answer: "Monument Valley Navajo Tribal Park",
-  // },
-  // {
-  //   id: 15,
-  //   question:
-  //     "Which park is known for its extensive system of interconnected lakes and waterways?",
-  //   answer: "Everglades National Park",
-  // },
-  // {
-  //   id: 16,
-  //   question:
-  //     "Which park is home to the largest collection of petroglyphs in North America?",
-  //   answer: "Petroglyph National Monument",
-  // },
-  // {
-  //   id: 17,
-  //   question:
-  //     "Which park is known for its extensive fossil forests and colorful badlands?",
-  //   answer: "Badlands National Park",
-  // },
-  // {
-  //   id: 18,
-  //   question:
-  //     "Which park is famous for its abundance of geysers, including Steamboat Geyser?",
-  //   answer: "Yellowstone National Park",
-  // },
-  // {
-  //   id: 19,
-  //   question:
-  //     "Which park is home to the largest alpine lake in North America, Lake Tahoe?",
-  //   answer: "Lake Tahoe Basin Management Unit",
-  // },
-  // {
-  //   id: 20,
-  //   question:
-  //     "Which park is known for its ancient bristlecone pine trees, some of the oldest living organisms on Earth?",
-  //   answer: "Great Basin National Park",
-  // },
+  {
+    id: 11,
+    question:
+      "Which park is the largest US National Park?",
+    answer: "Wrangell-St. Elias National Park",
+  },
+  {
+    id: 12,
+    question:
+      "Which park is home to the deepest and longest canyon in North America?",
+    answer: "Grand Canyon National Park",
+  },
+  {
+    id: 13,
+    question:
+      "Which park is known for its lush rainforests and rugged coastline?",
+    answer: "Olympic National Park",
+  },
+  {
+    id: 14,
+    question:
+      "Which park is famous for its massive sandstone buttes and mesas?",
+    answer: "Monument Valley Navajo Tribal Park",
+  },
+  {
+    id: 15,
+    question:
+      "Which park is known for its extensive system of interconnected lakes and waterways?",
+    answer: "Everglades National Park",
+  },
+  {
+    id: 16,
+    question:
+      "Which park is home to the largest collection of petroglyphs in North America?",
+    answer: "Petroglyph National Monument",
+  },
+  {
+    id: 17,
+    question:
+      "Which park is known for its extensive fossil forests and colorful badlands?",
+    answer: "Badlands National Park",
+  },
+  {
+    id: 18,
+    question:
+      "Which park is famous for its abundance of geysers, including Steamboat Geyser?",
+    answer: "Yellowstone National Park",
+  },
+  {
+    id: 19,
+    question:
+      "Which park is home to the largest alpine lake in North America, Lake Tahoe?",
+    answer: "Lake Tahoe Basin Management Unit",
+  },
+  {
+    id: 20,
+    question:
+      "Which park is known for its ancient bristlecone pine trees, some of the oldest living organisms on Earth?",
+    answer: "Great Basin National Park",
+  },
   // {
   //   id: 21,
   //   question:

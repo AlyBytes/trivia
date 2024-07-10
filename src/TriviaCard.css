@@ -1,0 +1,17 @@
+.Container{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    background-image: url("https://glacier.org/webcam/smv_nps.jpg?1720611889548");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    padding: 5em;
+}
+
+.NavigationSection{
+    justify-content: center; 
+    align-items: center;
+    display: flex;
+    gap: 20px 25px  ;
+}
