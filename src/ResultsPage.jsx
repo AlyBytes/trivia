@@ -1,4 +1,4 @@
-import "./ResultsPage.css"
+import "./ResultsPage.css";
 export default function ResultsPage({ userAnswers, listOfParks, playAgain }) {
   const calculateScore = () => {
     let score = 0;
@@ -14,8 +14,10 @@ export default function ResultsPage({ userAnswers, listOfParks, playAgain }) {
 
   return (
     <div className="ResultsPage">
-      <h1> Here are your RESULTS: {score}</h1>
-      <button className="Button" onClick={playAgain}>Play Again</button>
+      <h1> You got {score} right answers!! </h1>
+      <button className="Button" onClick={playAgain}>
+        Play Again
+      </button>
     </div>
   );
 }

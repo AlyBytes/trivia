@@ -21,11 +21,12 @@ export default function AnswerSection({ listOfParks, usersAnswers, idx }) {
         console.log(copyOfListOfAnswers);
         for(let i=lenOfList; i>=0;i--){
           const j=Math.floor(Math.random() * lenOfList);
-          if(j!=i){
+          // while(j!=i){
             [copyOfListOfAnswers[i], copyOfListOfAnswers[j]]= [copyOfListOfAnswers[j], copyOfListOfAnswers[i]];
-          } else{
-            const j=Math.floor(Math.random() * lenOfList);
-          }
+          // }
+            // } else{
+          //   const j=Math.floor(Math.random() * lenOfList);
+          // }
           
         }console.log(copyOfListOfAnswers);
         return copyOfListOfAnswers;

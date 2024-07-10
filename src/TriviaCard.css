@@ -2,24 +2,14 @@
     display: flex;
     flex-direction:column;
     justify-content: center;
-    /* background-color: aqua;*/
-    /* https://npgallery.nps.gov/GetAsset/0d6e4d0a-1dd8-b71b-0b7a-4d35d9c4a232/popupimage */
-    /* https://npgallery.nps.gov/GetAsset/0d6e4d0a-1dd8-b71b-0b7a-4d35d9c4a232/popupimage */
-    /* https://www.nps.gov/aboutus/news/images/JOTR_NPSBradSutton_960w.jpg?maxwidth=1300&maxheight=1300&autorotate=false */
-     background-image: url("https://glacier.org/webcam/smv_nps.jpg?1720611889548");
+    background-image: url("https://glacier.org/webcam/smv_nps.jpg?1720611889548");
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
-    /* margin: 10px 15px; */
     padding: 5em;
-    /* flex-flow: row wrap; */
-
-   /* position: absolute;
-     display: inline-block; */
 }
 
 .NavigationSection{
-    /* flex-direction: row; */
     justify-content: center; 
     align-items: center;
     display: flex;

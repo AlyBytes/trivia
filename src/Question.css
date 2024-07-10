@@ -2,22 +2,18 @@
     
     border-radius: 10px;
     color: ivory;
-    text-shadow: 2px 2px 10px grey;
-    /* display: inline-block; */
+    text-shadow: 2px 2px 10px black;
     padding: 3px;
     text-align: center;
     font-size: 2.5vw;
     margin: auto;
     font-weight: bold;
-    /* display: flex; */
   }
   
 .Question{
-    /* display: flex; */
     display: inline-block;
     color: cornsilk;
     text-shadow: 2px 2px 1px purple;
-    /* text-align: center; */
     padding: 10px;
     font-size: 1.8vw;
     font-family: Helvetica;
