@@ -1,18 +1,18 @@
 const nationalParkQuestions = [
   {
     id: 0,
-    question: "Which national park is home to Old Faithful?",
+    question: "Which park is the first US National Park?",
     answer: "Yellowstone National Park",
   },
   {
     id: 1,
-    question: "Which park features the iconic Half Dome and El Capitan?",
-    answer: "Yosemite National Park",
+    question: "Which park is known for its ancient cliff dwellings?",
+    answer: "Mesa Verde National Park",
   },
   {
     id: 2,
-    question: "Which park is known for its ancient cliff dwellings?",
-    answer: "Mesa Verde National Park",
+    question: "Which park is home to the world's largest trees?",
+    answer: "Sequoia National Park",
   },
   {
     id: 3,
@@ -37,26 +37,25 @@ const nationalParkQuestions = [
   },
   {
     id: 7,
-    question:
-      "Which park is known for its colorful hot springs, including the Grand Prismatic Spring?",
-    answer: "Yellowstone National Park",
+    question: "Which park is home to the tallest peak in North America?",
+    answer: "Denali National Park",
   },
   {
     id: 8,
     question:
-      "Which park is home to the tallest peak in North America, Denali?",
-    answer: "Denali National Park",
+      "Which park is known for its extensive system of interconnected lakes and waterways?",
+    answer: "Everglades National Park",
   },
   {
     id: 9,
-    question: "Which park is known for its towering sandstone spires?",
-    answer: "Zion National Park",
+    question:
+      "Which park is home to the deepest and longest canyon in North America?",
+    answer: "Grand Canyon National Park",
   },
   {
     id: 10,
-    question:
-      "Which park is famous for its dramatic hoodoos and amphitheaters?",
-    answer: "Bryce Canyon National Park",
+    question: "Which park is famous for its massive sandstone arches?",
+    answer: "Arches National Park",
   },
   // {
   //   id: 11,
