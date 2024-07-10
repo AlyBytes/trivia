@@ -21,8 +21,8 @@ const nationalParkQuestions = [
   },
   {
     id: 4,
-    question: "Which park is famous for its vibrant red rock formations?",
-    answer: "Arches National Park",
+    question: "Which park is known for its extensive cave systems and underground rivers?",
+    answer: "Carlsbad Caverns National Park",
   },
   {
     id: 5,
@@ -57,66 +57,66 @@ const nationalParkQuestions = [
     question: "Which park is famous for its massive sandstone arches?",
     answer: "Arches National Park",
   },
-  // {
-  //   id: 11,
-  //   question:
-  //     "Which park is known for its extensive cave systems and underground rivers?",
-  //   answer: "Carlsbad Caverns National Park",
-  // },
-  // {
-  //   id: 12,
-  //   question:
-  //     "Which park is home to the deepest and longest canyon in North America?",
-  //   answer: "Grand Canyon National Park",
-  // },
-  // {
-  //   id: 13,
-  //   question:
-  //     "Which park is known for its lush rainforests and rugged coastline?",
-  //   answer: "Olympic National Park",
-  // },
-  // {
-  //   id: 14,
-  //   question:
-  //     "Which park is famous for its massive sandstone buttes and mesas?",
-  //   answer: "Monument Valley Navajo Tribal Park",
-  // },
-  // {
-  //   id: 15,
-  //   question:
-  //     "Which park is known for its extensive system of interconnected lakes and waterways?",
-  //   answer: "Everglades National Park",
-  // },
-  // {
-  //   id: 16,
-  //   question:
-  //     "Which park is home to the largest collection of petroglyphs in North America?",
-  //   answer: "Petroglyph National Monument",
-  // },
-  // {
-  //   id: 17,
-  //   question:
-  //     "Which park is known for its extensive fossil forests and colorful badlands?",
-  //   answer: "Badlands National Park",
-  // },
-  // {
-  //   id: 18,
-  //   question:
-  //     "Which park is famous for its abundance of geysers, including Steamboat Geyser?",
-  //   answer: "Yellowstone National Park",
-  // },
-  // {
-  //   id: 19,
-  //   question:
-  //     "Which park is home to the largest alpine lake in North America, Lake Tahoe?",
-  //   answer: "Lake Tahoe Basin Management Unit",
-  // },
-  // {
-  //   id: 20,
-  //   question:
-  //     "Which park is known for its ancient bristlecone pine trees, some of the oldest living organisms on Earth?",
-  //   answer: "Great Basin National Park",
-  // },
+  {
+    id: 11,
+    question:
+      "Which park is the largest US National Park?",
+    answer: "Wrangell-St. Elias National Park",
+  },
+  {
+    id: 12,
+    question:
+      "Which park is home to the deepest and longest canyon in North America?",
+    answer: "Grand Canyon National Park",
+  },
+  {
+    id: 13,
+    question:
+      "Which park is known for its lush rainforests and rugged coastline?",
+    answer: "Olympic National Park",
+  },
+  {
+    id: 14,
+    question:
+      "Which park is famous for its massive sandstone buttes and mesas?",
+    answer: "Monument Valley Navajo Tribal Park",
+  },
+  {
+    id: 15,
+    question:
+      "Which park is known for its extensive system of interconnected lakes and waterways?",
+    answer: "Everglades National Park",
+  },
+  {
+    id: 16,
+    question:
+      "Which park is home to the largest collection of petroglyphs in North America?",
+    answer: "Petroglyph National Monument",
+  },
+  {
+    id: 17,
+    question:
+      "Which park is known for its extensive fossil forests and colorful badlands?",
+    answer: "Badlands National Park",
+  },
+  {
+    id: 18,
+    question:
+      "Which park is famous for its abundance of geysers, including Steamboat Geyser?",
+    answer: "Yellowstone National Park",
+  },
+  {
+    id: 19,
+    question:
+      "Which park is home to the largest alpine lake in North America, Lake Tahoe?",
+    answer: "Lake Tahoe Basin Management Unit",
+  },
+  {
+    id: 20,
+    question:
+      "Which park is known for its ancient bristlecone pine trees, some of the oldest living organisms on Earth?",
+    answer: "Great Basin National Park",
+  },
   // {
   //   id: 21,
   //   question:
