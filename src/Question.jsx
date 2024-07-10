@@ -1,8 +1,9 @@
+import "./Question.css"
 export default function Question({ id = 1, question }) {
   return (
-    <div>
+    <div className="QuestionSection">
       <h2>Question {id}</h2>
-      <p>{question}</p>
+      <p className="Question">{question}</p>
       {/* <p>{questionNPS}</p> */}
     </div>
   );

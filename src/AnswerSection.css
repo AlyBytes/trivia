@@ -1,0 +1,16 @@
+.AnswerSection{
+	/* margin: auto; */
+	/* flex-direction: row; */
+	flex-wrap: wrap;
+	padding: 1em;
+	margin: 5px 1px;
+	/* background-color: blueviolet; */
+	display: grid;
+	grid-template-columns: repeat(2, 1fr); /* Two columns */
+	/* gap: 10px; Gap between grid items */
+	/* justify-content: center; */
+	/* flex: 0 4 auto; */
+	/* align-items: stretch; */
+	gap: 20px 20px;
+	
+}
