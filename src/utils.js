@@ -16,13 +16,14 @@ const nationalParkQuestions = [
   },
   {
     id: 3,
-    question: "Which park is home to the world's largest trees, the sequoias?",
-    answer: "Sequoia National Park",
+    question:
+      "Which park is known for its extensive cave systems and underground rivers?",
+    answer: "Carlsbad Caverns National Park",
   },
   {
     id: 4,
-    question: "Which park is known for its extensive cave systems and underground rivers?",
-    answer: "Carlsbad Caverns National Park",
+    question: "Which national park has the most diverse flora?",
+    answer: "Great Smoky Mountains National Park",
   },
   {
     id: 5,
@@ -59,15 +60,13 @@ const nationalParkQuestions = [
   },
   {
     id: 11,
-    question:
-      "Which park is the largest US National Park?",
+    question: "Which park is the largest US National Park?",
     answer: "Wrangell-St. Elias National Park",
   },
   {
     id: 12,
-    question:
-      "Which park is home to the deepest and longest canyon in North America?",
-    answer: "Grand Canyon National Park",
+    question: "Which park is located mostly underground?",
+    answer: "Mammoth Cave National Park",
   },
   {
     id: 13,
@@ -77,21 +76,19 @@ const nationalParkQuestions = [
   },
   {
     id: 14,
-    question:
-      "Which park is famous for its massive sandstone buttes and mesas?",
-    answer: "Monument Valley Navajo Tribal Park",
+    question: "Which national park is the hottest (place on Earth)?",
+    answer: "Death Valley National Park",
   },
   {
     id: 15,
-    question:
-      "Which park is known for its extensive system of interconnected lakes and waterways?",
-    answer: "Everglades National Park",
+    question: "Which park is the youngest US National Park?",
+    answer: "New River Gorge National Park",
   },
   {
     id: 16,
     question:
-      "Which park is home to the largest collection of petroglyphs in North America?",
-    answer: "Petroglyph National Monument",
+      "Which park is known for its massive sand dunes and seasonal Medano Creek?",
+    answer: "Great Sand Dunes National Park",
   },
   {
     id: 17,
@@ -101,88 +98,19 @@ const nationalParkQuestions = [
   },
   {
     id: 18,
-    question:
-      "Which park is famous for its abundance of geysers, including Steamboat Geyser?",
-    answer: "Yellowstone National Park",
+    question: "Which park owes its name to imaginative Frenchmen?",
+    answer: "Grand Teton National Park",
   },
   {
     id: 19,
-    question:
-      "Which park is home to the largest alpine lake in North America, Lake Tahoe?",
-    answer: "Lake Tahoe Basin Management Unit",
+    question: "Which park is the smallest National Park?",
+    answer: "Gateway Arch National Park",
   },
   {
     id: 20,
-    question:
-      "Which park is known for its ancient bristlecone pine trees, some of the oldest living organisms on Earth?",
-    answer: "Great Basin National Park",
+    question: "Which park is considered the Crown Jewel of the Continent?",
+    answer: "Glacier National Park",
   },
-  // {
-  //   id: 21,
-  //   question:
-  //     "Which park is known for its extensive system of limestone caves, including Mammoth Cave?",
-  //   answer: "Mammoth Cave National Park",
-  // },
-  // {
-  //   id: 22,
-  //   question:
-  //     "Which park is home to the famous balanced rock and prickly pear cacti?",
-  //   answer: "Big Bend National Park",
-  // },
-  // {
-  //   id: 23,
-  //   question:
-  //     "Which park is known for its unique hoodoo formations and the Queen's Garden Trail?",
-  //   answer: "Bryce Canyon National Park",
-  // },
-  // {
-  //   id: 24,
-  //   question:
-  //     "Which park is home to the deepest and clearest freshwater lake in the world, Crater Lake?",
-  //   answer: "Crater Lake National Park",
-  // },
-  // {
-  //   id: 25,
-  //   question:
-  //     "Which park is known for its massive sand dunes and seasonal Medano Creek?",
-  //   answer: "Great Sand Dunes National Park",
-  // },
-  // {
-  //   id: 26,
-  //   question:
-  //     "Which park is famous for its extensive network of natural limestone bridges?",
-  //   answer: "Natural Bridges National Monument",
-  // },
-  // {
-  //   id: 27,
-  //   question:
-  //     "Which park is home to the largest living tree by volume, the General Sherman Tree?",
-  //   answer: "Sequoia National Park",
-  // },
-  // {
-  //   id: 28,
-  //   question:
-  //     "Which park is known for its diverse marine ecosystem and historic shipwrecks?",
-  //   answer: "Channel Islands National Park",
-  // },
-  // {
-  //   id: 29,
-  //   question:
-  //     "Which park is famous for its intricate slot canyons and iconic Antelope Canyon?",
-  //   answer: "Antelope Canyon Navajo Tribal Park",
-  // },
-  // {
-  //   id: 30,
-  //   question:
-  //     "Which park is famous for its massive sandstone arches, such as Delicate Arch?",
-  //   answer: "Arches National Park",
-  // },
-  // {
-  //   id: 31,
-  //   question:
-  //     "Which park is known for its large limestone caves, including Mammoth Cave?",
-  //   answer: "Mammoth Cave National Park",
-  // },
 ];
 
 // function randomNum() {
