@@ -8,7 +8,7 @@ export default function AnswerSection({ listOfParks, usersAnswers, idx }) {
   const [randomList, setRandomList] = useState([]);
 
   useEffect(() => {
-    const isInRandomList = randomThree();
+    const isInRandomList = randomThree(idx);
     console.log(isInRandomList);
     // const filteredListOfParks=listOfParks.filter((park) => park.id !== currentQuestion.id);
     // const filteredList = filteredListOfParks
@@ -32,11 +32,11 @@ export default function AnswerSection({ listOfParks, usersAnswers, idx }) {
     };
 
     const shuffledAnswers = shuffle_Answers(filteredList);
-    console.log(shuffledAnswers);
+    
     setRandomList(shuffledAnswers);
   }, [listOfParks, idx]); // Dependency array to ensure useEffect runs on mount and when listOfParks or idx change
 
-  console.log(randomList);
+  
   return (
     <section className="AnswerSection">
       {randomList.map((park, i) => {
