@@ -8,13 +8,13 @@ export default function AnswerSection({ listOfParks, usersAnswers, idx }) {
   const [randomList, setRandomList] = useState([]);
 
   useEffect(() => {
-    const isInRandomList = randomThree();
+    const isInRandomList = randomThree(currentQuestion);
     const filteredList = listOfParks
       .filter((park) => isInRandomList.includes(park.id))
       .map((park) => ({ id: park.id, answer: park.answer }))
       .concat({ id: currentQuestion.id, answer: currentQuestion.answer });
 
-     const shuffleAnswers=(listOfAnswers)=>{
+     const shuffle_Answers=(listOfAnswers)=>{
         const copyOfListOfAnswers = [...listOfAnswers];
         const lenOfList=copyOfListOfAnswers.length-1;
      
@@ -26,7 +26,7 @@ export default function AnswerSection({ listOfParks, usersAnswers, idx }) {
         return copyOfListOfAnswers;
       }
 
-    const shuffledAnswers = shuffleAnswers(filteredList);
+    const shuffledAnswers = shuffle_Answers(filteredList);
 
     setRandomList(shuffledAnswers);
   }, [listOfParks, idx]); // Dependency array to ensure useEffect runs on mount and when listOfParks or idx change

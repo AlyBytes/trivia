@@ -14,7 +14,7 @@ export default function ResultsPage({ userAnswers, listOfParks, playAgain }) {
 
   return (
     <div className="ResultsPage">
-      <h1> You got {score} right answers!! </h1>
+      <h1> You got {score} answers right!! </h1>
       <button className="Button" onClick={playAgain}>
         Play Again
       </button>

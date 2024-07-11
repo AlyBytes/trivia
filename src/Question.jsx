@@ -4,7 +4,6 @@ export default function Question({ id = 1, question }) {
     <div className="QuestionSection">
       <h2>Question {id}</h2>
       <p className="Question">{question}</p>
-      {/* <p>{questionNPS}</p> */}
     </div>
   );
 }
