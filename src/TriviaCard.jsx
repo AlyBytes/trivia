@@ -18,6 +18,7 @@ export default function TriviaCard({ aList, onFinish }) {
     if (!isAnswered) {
       answersFromUser[questionIndex] = e.target.innerText;
       setAnswersFromUser((prevAnswersFromUser) => [...prevAnswersFromUser]);
+      console.log(answersFromUser);
       setIsAnswered(true);
     }
   };

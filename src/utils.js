@@ -81,8 +81,8 @@ const nationalParkQuestions = [
   },
   {
     id: 15,
-    question: "Which park is the youngest US National Park?",
-    answer: "New River Gorge National Park",
+    question: "Which park is considered the Crown Jewel of the Continent?",
+    answer: "Glacier National Park",
   },
   {
     id: 16,
@@ -106,11 +106,11 @@ const nationalParkQuestions = [
     question: "Which park is the smallest National Park?",
     answer: "Gateway Arch National Park",
   },
-  {
-    id: 20,
-    question: "Which park is considered the Crown Jewel of the Continent?",
-    answer: "Glacier National Park",
-  },
+  // {
+  //   id: 20,
+  //   question: "Which park is the youngest US National Park?",
+  //   answer: "New River Gorge National Park",
+  // },
 ];
 
 function randomThree(currentIdx) {
@@ -118,10 +118,14 @@ function randomThree(currentIdx) {
   const randomThreeNumbers = [];
 
   while (randomThreeNumbers.length < 3) {
-    const randomNum = Math.floor(Math.random() * 10) + 1;
-    if (randomNum !== currentIdx && !randomThreeNumbers.includes(randomNum)) {
+    const randomNum = Math.floor(Math.random() * 20);
+    if (
+      randomNum !== currentIdx &&
+      !randomThreeNumbers.includes(randomNum)
+    ) {
       randomThreeNumbers.push(randomNum);
     }
+    console.log(randomNum);
   }
   return randomThreeNumbers;
 }
