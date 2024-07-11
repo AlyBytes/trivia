@@ -113,17 +113,13 @@ const nationalParkQuestions = [
   },
 ];
 
-// function randomNum() {
-//   return Math.floor(Math.random() * 20) + 1;
-// }
-
-function randomThree() {
+function randomThree(currentIdx) {
   // return Array.from({ length: k }, () => randomNum());
   const randomThreeNumbers = [];
 
   while (randomThreeNumbers.length < 3) {
     const randomNum = Math.floor(Math.random() * 10) + 1;
-    if (!randomThreeNumbers.includes(randomNum)) {
+    if (randomNum !== currentIdx && !randomThreeNumbers.includes(randomNum)) {
       randomThreeNumbers.push(randomNum);
     }
   }

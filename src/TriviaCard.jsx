@@ -13,16 +13,16 @@ export default function TriviaCard({ aList, onFinish }) {
   );
   const [isAnswered, setIsAnswered] = useState(false);
 
+  //collect user's clicked answers into array 
   const usersAnswers = (e) => {
     if (!isAnswered) {
       answersFromUser[questionIndex] = e.target.innerText;
       setAnswersFromUser((prevAnswersFromUser) => [...prevAnswersFromUser]);
-      console.log(answersFromUser);
       setIsAnswered(true);
     }
   };
 
-  // define event handlers
+  // define event handlers for nav arrows
   const goBack = () => {
     if (questionIndex > 0) {
       setQuestionIndex((prevQuestionIndex) => prevQuestionIndex - 1);
