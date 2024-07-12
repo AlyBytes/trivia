@@ -1,5 +1,5 @@
-import "./StartPage.css"
-import "./Button.css"
+import "../StartPage.css"
+import "../Button.css"
 export default function StartPage({ onStart }) {
   return (
   

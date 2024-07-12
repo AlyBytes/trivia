@@ -2,8 +2,8 @@ import NavButton from "./NavButton";
 import { useState } from "react";
 import Question from "./Question";
 import AnswerSection from "./AnswerSection";
-import "./TriviaCard.css"
-import "./NavigationArrow.css"
+import "../TriviaCard.css"
+import "../NavigationArrow.css"
 
 
 export default function TriviaCard({ aList, onFinish }) {

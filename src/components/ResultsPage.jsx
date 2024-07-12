@@ -1,4 +1,4 @@
-import "./ResultsPage.css";
+import "../ResultsPage.css";
 export default function ResultsPage({ userAnswers, listOfParks, playAgain }) {
   const calculateScore = () => {
     let score = 0;
