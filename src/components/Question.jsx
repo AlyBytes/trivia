@@ -1,4 +1,4 @@
-import "./Question.css"
+import "../Question.css"
 export default function Question({ id = 1, question }) {
   return (
     <div className="QuestionSection">

@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import AnswerButton from "./AnswerButton";
-import { randomThree } from "./utils";
-import "./AnswerSection.css";
+import { randomThree } from "../utils";
+import "../AnswerSection.css";
 
 export default function AnswerSection({ listOfParks, usersAnswers, idx }) {
   const currentQuestion = listOfParks[idx];
@@ -32,11 +32,10 @@ export default function AnswerSection({ listOfParks, usersAnswers, idx }) {
     };
 
     const shuffledAnswers = shuffle_Answers(filteredList);
-    
+
     setRandomList(shuffledAnswers);
   }, [listOfParks, idx]); // Dependency array to ensure useEffect runs on mount and when listOfParks or idx change
 
-  
   return (
     <section className="AnswerSection">
       {randomList.map((park, i) => {

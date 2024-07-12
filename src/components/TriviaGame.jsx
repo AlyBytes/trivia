@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { nationalParkQuestions } from "./utils";
+import { nationalParkQuestions } from "../utils";
 import StartPage from "./StartPage";
 import TriviaCard from "./TriviaCard";
 import ResultsPage from "./ResultsPage";
@@ -23,7 +23,7 @@ const TriviaGame = () => {
   };
 
   return (
-    <div >
+    <div>
       {gameStage === "intro" && <StartPage onStart={handleStartGame} />}
       {gameStage === "game" && (
         <TriviaCard onFinish={handleGameFinish} aList={nationalParkQuestions} />

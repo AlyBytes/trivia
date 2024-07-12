@@ -1,6 +1,5 @@
-import { useState } from "react";
 import "./App.css";
-import TriviaGame from "./TriviaGame";
+import TriviaGame from "./components/TriviaGame";
 
 function App() {
 
